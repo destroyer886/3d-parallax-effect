@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Animation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+        integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <img class="logo" src="./img/logo.png" alt="logo">
+            <ul>
+                <li><a href="">Log In</a></li>
+                <li><a href="">Sign Out</a></li>
+                <li class="search"><a href=""><i class="ri-search-line"></i></a></li>
+                <li class="hamburger">
+                    <a href="#"><i class="ri-menu-5-line"></i> </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="vignette"></div>
+        <img src="img/background.png" data-distance="-200" data-speedz ="0"  data-speedx="0.3" data-speedy="0.38" alt="img" class="parallax bg-img">
+        <img src="img/fog_7.png" data-distance="850"data-speedz ="0" data-speedx="0.27" data-speedy="0.032" alt="img" class="parallax fog-7">
+        <img src="img/mountain_10.png" data-distance="1100" data-speedz ="0" data-speedx="0.195"data-speedy="0.305" alt="img" class="parallax mount-10">
+        <img src="img/fog_6.png" data-distance="1400" data-speedz ="0" data-speedx="0.25"data-speedy="0.28" alt="img" class="parallax fog-6">
+        <img src="img/mountain_9.png" data-distance="1700" data-speedz ="0.15" data-speedx="0.125"data-speedy="0.155" alt="img" class="parallax mount-9 ">
+        <img src="./img/mountain_8.png" data-distance="1800" data-speedz ="0" data-speedx="0.1"data-speedy="0.11" alt="img" class="parallax mount-8">
+        <img src="img/fog_5.png" data-distance="1900" data-speedz ="0" data-speedx="0.16"data-speedy="0.105" alt="img" class="parallax fog-5">
+        <img src="img/mountain_7.png" data-distance="2000" data-speedz ="0" data-speedx="0.1"data-speedy="0.1" alt="img" class="parallax mount-7">
+        <div data-speedx="0.07" data-distance="0" data-speedy="0.07" data-speedz ="0" class="text parallax">
+            <h2>China</h2>
+            <h1>Zhangjiajie</h1>
+        </div>
+        <img src="img/mountain_6.png" data-distance="2300" data-speedz ="0.05" data-speedx="0.065"data-speedy="0.05" alt="img" class="parallax mount-6">
+        <img src="img/fog_4.png" data-distance="2400" data-speedz ="0" data-speedx="0.135"data-speedy="0.32" alt="img" class="parallax fog-4">
+        <img src="img/mountain_5.png" data-distance="2550" data-speedz ="0.13" data-speedx="0.08"data-speedy="0.055" alt="img" class="parallax mount-5">
+        <img src="img/fog_3.png" data-distance="2800" data-speedz ="0" data-speedx="0.11"data-speedy="0.018" alt="img" class="parallax fog-3">
+        <img src="img/mountain_4.png" data-distance="3200" data-speedz ="0.35" data-speedx="0.059"data-speedy="0.024" alt="img" class="parallax mount-4">
+        <img src="img/mountain_3.png" data-distance="3400" data-speedz ="0.32" data-speedx="0.04"data-speedy="0.018" alt="img" class="parallax mount-3">
+        <img src="img/fog_2.png" data-distance="3600" data-speedz ="0" data-speedx="0.15"data-speedy="0.0115" alt="img" class="parallax fog-2">
+        <img src="img/mountain_2.png" data-distance="3800" data-speedz="0.42"  data-speedx="0.0235"data-speedy="0.0235" alt="img" class="parallax mount-2">
+        <img src="img/mountain_1.png" data-distance="4000" data-speedz="0.53" data-speedx="0.027"data-speedy="0.018" alt="img" class="parallax mount-1">
+        <img src="img/sun_rays.png" alt="img" class="sun-rays">
+        <img src="img/black_shadow.png" alt="img" class="black-shadow">
+        <img src="img/fog_1.png" data-distance="4200" data-speedz="0" data-speedx="0.12"data-speedy="0.01"alt="img" class="parallax fog-1">
+
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
